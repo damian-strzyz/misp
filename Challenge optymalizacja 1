@@ -1,0 +1,91 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMhqVszlAvfUN9d4Pgfm3Ah",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/damian-strzyz/misp/blob/main/Challenge%20optymalizacja%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "PqE7Yt7zV3uI",
+        "outputId": "24508ee0-a9e7-437d-99b8-964f55a9dc5a",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "from pulp import *\n",
+        "\n",
+        "problem_okna = LpProblem(\"Problem_okna\", LpMaximize)\n",
+        "\n",
+        "okna_alu = LpVariable(\"okna_alu\",lowBound=0, cat= 'Continuous')\n",
+        "okna_drew = LpVariable(\"okna_drew\",lowBound=0, cat= 'Continuous')\n",
+        "\n",
+        "problem_okna += 5000*okna_drew+3000*okna_alu,\"ZYSK\"\n",
+        "problem_okna += 1*okna_alu <= 4, \"f1\"\n",
+        "problem_okna += 2*okna_drew <= 12, \"f2\"\n",
+        "problem_okna += 3*okna_alu + 2*okna_drew <= 18, \"f3\"\n",
+        "\n",
+        "problem_okna.solve()\n",
+        "print(LpStatus[problem_okna.status])\n",
+        "print(value(problem_okna.objective))"
+      ],
+      "execution_count": 60,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Optimal\n",
+            "36000.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "MuE6kBB8Y6SM",
+        "outputId": "d7504210-3ca9-4e12-8ebd-4e7997878b71",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "for variable in problem_okna.variables():\n",
+        "    print(\"{} = {}\".format(variable.name, variable.varValue))"
+      ],
+      "execution_count": 61,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "okna_alu = 2.0\n",
+            "okna_drew = 6.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
