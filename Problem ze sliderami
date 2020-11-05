@@ -5,7 +5,7 @@
     "colab": {
       "name": "Untitled2.ipynb",
       "provenance": [],
-      "authorship_tag": "ABX9TyMGVLudH8bWrTkkJjv0dpY5",
+      "authorship_tag": "ABX9TyPKcikKNBW6m+gIuGV0SHbz",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -14,7 +14,7 @@
     },
     "widgets": {
       "application/vnd.jupyter.widget-state+json": {
-        "0109c2cca61c4857a89453a4cdcc2f99": {
+        "29be406e6cfd4949a28fff6bd2432f1c": {
           "model_module": "@jupyter-widgets/controls",
           "model_name": "VBoxModel",
           "state": {
@@ -28,19 +28,19 @@
             "_view_count": null,
             "_view_module_version": "1.5.0",
             "box_style": "",
-            "layout": "IPY_MODEL_92f4518368694785a6dd003af5fa5d57",
+            "layout": "IPY_MODEL_166719b29e67493d9f36e1f7f70c8b79",
             "_model_module": "@jupyter-widgets/controls",
             "children": [
-              "IPY_MODEL_b6aafc178091442097e0de3ee3c4470a",
-              "IPY_MODEL_d8fe157fb2ad4ee38f1a4fc3f6082858",
-              "IPY_MODEL_3cc6276a850547b18aec0b722319b64f",
-              "IPY_MODEL_7dd2ac24b8984ec782a06dadea733e08",
-              "IPY_MODEL_acff8ee5efdd409fa4845432b1c1fd19",
-              "IPY_MODEL_aae407bd26124378993ebda796d59015"
+              "IPY_MODEL_85d56b95a2184208aec7f0a926bf60ae",
+              "IPY_MODEL_2dd7875b847340ee92b829f69ccc9e8e",
+              "IPY_MODEL_a7fd1ef45386444fa39df12a3b02f4f1",
+              "IPY_MODEL_7705f9e1776f40d9afe876fbfdf968f2",
+              "IPY_MODEL_eeb06b01497f48ad984295e5a5631861",
+              "IPY_MODEL_c9b1dfe68e374ce9a39b0b49f3dd8a2b"
             ]
           }
         },
-        "92f4518368694785a6dd003af5fa5d57": {
+        "166719b29e67493d9f36e1f7f70c8b79": {
           "model_module": "@jupyter-widgets/base",
           "model_name": "LayoutModel",
           "state": {
@@ -91,12 +91,12 @@
             "left": null
           }
         },
-        "b6aafc178091442097e0de3ee3c4470a": {
+        "85d56b95a2184208aec7f0a926bf60ae": {
           "model_module": "@jupyter-widgets/controls",
           "model_name": "IntSliderModel",
           "state": {
             "_view_name": "IntSliderView",
-            "style": "IPY_MODEL_e47b3e22a1cc4720929e82d0ada888c4",
+            "style": "IPY_MODEL_78ec68aec7a74edaa6daef4ff42396b8",
             "_dom_classes": [],
             "description": "cena_drew",
             "step": 1,
@@ -105,7 +105,7 @@
             "max": 10000,
             "_view_module": "@jupyter-widgets/controls",
             "_model_module_version": "1.5.0",
-            "value": 5000,
+            "value": 5687,
             "_view_count": null,
             "disabled": false,
             "_view_module_version": "1.5.0",
@@ -115,15 +115,15 @@
             "description_tooltip": null,
             "readout": true,
             "_model_module": "@jupyter-widgets/controls",
-            "layout": "IPY_MODEL_bb27c7f062ab402497c7795b079c1cf6"
+            "layout": "IPY_MODEL_d56356159e784dc889c057936b0b46c1"
           }
         },
-        "d8fe157fb2ad4ee38f1a4fc3f6082858": {
+        "2dd7875b847340ee92b829f69ccc9e8e": {
           "model_module": "@jupyter-widgets/controls",
           "model_name": "IntSliderModel",
           "state": {
             "_view_name": "IntSliderView",
-            "style": "IPY_MODEL_c70e99cd3ddb4a4181dc7b52607e7d1a",
+            "style": "IPY_MODEL_d8f2b2b0ef734a3cace4d44bea86bfa3",
             "_dom_classes": [],
             "description": "cena_alu",
             "step": 1,
@@ -132,7 +132,7 @@
             "max": 10000,
             "_view_module": "@jupyter-widgets/controls",
             "_model_module_version": "1.5.0",
-            "value": 3000,
+            "value": 6816,
             "_view_count": null,
             "disabled": false,
             "_view_module_version": "1.5.0",
@@ -142,15 +142,15 @@
             "description_tooltip": null,
             "readout": true,
             "_model_module": "@jupyter-widgets/controls",
-            "layout": "IPY_MODEL_0f27a457ddef4c4d8e06ea52184e1622"
+            "layout": "IPY_MODEL_cac7868c2b3343f7ba48ddbf08c7375a"
           }
         },
-        "3cc6276a850547b18aec0b722319b64f": {
+        "a7fd1ef45386444fa39df12a3b02f4f1": {
           "model_module": "@jupyter-widgets/controls",
           "model_name": "IntSliderModel",
           "state": {
             "_view_name": "IntSliderView",
-            "style": "IPY_MODEL_42177fc11feb48f8a251a2d3d315a955",
+            "style": "IPY_MODEL_b96c114e9b1646d985aa47697d24b1af",
             "_dom_classes": [],
             "description": "czas_f1",
             "step": 1,
@@ -159,7 +159,7 @@
             "max": 24,
             "_view_module": "@jupyter-widgets/controls",
             "_model_module_version": "1.5.0",
-            "value": 4,
+            "value": 24,
             "_view_count": null,
             "disabled": false,
             "_view_module_version": "1.5.0",
@@ -169,15 +169,15 @@
             "description_tooltip": null,
             "readout": true,
             "_model_module": "@jupyter-widgets/controls",
-            "layout": "IPY_MODEL_b1299c53f9d446a2b5f589e3a8ff7f7c"
+            "layout": "IPY_MODEL_d97fde8b59a84b3cb95265d1a62b2d94"
           }
         },
-        "7dd2ac24b8984ec782a06dadea733e08": {
+        "7705f9e1776f40d9afe876fbfdf968f2": {
           "model_module": "@jupyter-widgets/controls",
           "model_name": "IntSliderModel",
           "state": {
             "_view_name": "IntSliderView",
-            "style": "IPY_MODEL_d3aad7cdc7da4ff6b022d9e2085a2da7",
+            "style": "IPY_MODEL_80be6c995651491e9b9b1fce5971dc05",
             "_dom_classes": [],
             "description": "czas_f2",
             "step": 1,
@@ -186,7 +186,7 @@
             "max": 24,
             "_view_module": "@jupyter-widgets/controls",
             "_model_module_version": "1.5.0",
-            "value": 12,
+            "value": 10,
             "_view_count": null,
             "disabled": false,
             "_view_module_version": "1.5.0",
@@ -196,15 +196,15 @@
             "description_tooltip": null,
             "readout": true,
             "_model_module": "@jupyter-widgets/controls",
-            "layout": "IPY_MODEL_885491eb49f54f7a986fc2f88e5df3ca"
+            "layout": "IPY_MODEL_e371ec09b7d244f0a0a18cd9e29c2b58"
           }
         },
-        "acff8ee5efdd409fa4845432b1c1fd19": {
+        "eeb06b01497f48ad984295e5a5631861": {
           "model_module": "@jupyter-widgets/controls",
           "model_name": "IntSliderModel",
           "state": {
             "_view_name": "IntSliderView",
-            "style": "IPY_MODEL_e0caf81af4c6408bade51074916fd54a",
+            "style": "IPY_MODEL_8ce4ba6c69b14504bb4373e57df66fb4",
             "_dom_classes": [],
             "description": "czas_f3",
             "step": 1,
@@ -213,7 +213,7 @@
             "max": 24,
             "_view_module": "@jupyter-widgets/controls",
             "_model_module_version": "1.5.0",
-            "value": 18,
+            "value": 14,
             "_view_count": null,
             "disabled": false,
             "_view_module_version": "1.5.0",
@@ -223,10 +223,10 @@
             "description_tooltip": null,
             "readout": true,
             "_model_module": "@jupyter-widgets/controls",
-            "layout": "IPY_MODEL_dc88c6844f264df08518a7fd1036c440"
+            "layout": "IPY_MODEL_f5916ce935bc42d586d421a0986e5263"
           }
         },
-        "aae407bd26124378993ebda796d59015": {
+        "c9b1dfe68e374ce9a39b0b49f3dd8a2b": {
           "model_module": "@jupyter-widgets/output",
           "model_name": "OutputModel",
           "state": {
@@ -240,7 +240,7 @@
                 "metadata": {
                   "tags": []
                 },
-                "text": "36000.0\nokna_alu = 2.0\nokna_drew = 6.0\n**********Shadow Prices**********\n  name  shadow price  slack\n0   f1          -0.0    2.0\n1   f2        1500.0   -0.0\n2   f3        1000.0   -0.0\n",
+                "text": "37522.9997728\nokna_alu = 1.3333333\nokna_drew = 5.0\n**********Shadow Prices**********\n  name  shadow price      slack\n0   f1          -0.0  22.666667\n1   f2         571.5  -0.000000\n2   f3        2272.0  -0.000000\n",
                 "stream": "stdout"
               }
             ],
@@ -248,11 +248,11 @@
             "_model_module_version": "1.0.0",
             "_view_count": null,
             "_view_module_version": "1.0.0",
-            "layout": "IPY_MODEL_3b42e72877094c75b4820243f4d80f56",
+            "layout": "IPY_MODEL_483e366d1c32452cbe341d4dfea8bd62",
             "_model_module": "@jupyter-widgets/output"
           }
         },
-        "e47b3e22a1cc4720929e82d0ada888c4": {
+        "78ec68aec7a74edaa6daef4ff42396b8": {
           "model_module": "@jupyter-widgets/controls",
           "model_name": "SliderStyleModel",
           "state": {
@@ -267,7 +267,7 @@
             "_model_module": "@jupyter-widgets/controls"
           }
         },
-        "bb27c7f062ab402497c7795b079c1cf6": {
+        "d56356159e784dc889c057936b0b46c1": {
           "model_module": "@jupyter-widgets/base",
           "model_name": "LayoutModel",
           "state": {
@@ -318,7 +318,7 @@
             "left": null
           }
         },
-        "c70e99cd3ddb4a4181dc7b52607e7d1a": {
+        "d8f2b2b0ef734a3cace4d44bea86bfa3": {
           "model_module": "@jupyter-widgets/controls",
           "model_name": "SliderStyleModel",
           "state": {
@@ -333,7 +333,7 @@
             "_model_module": "@jupyter-widgets/controls"
           }
         },
-        "0f27a457ddef4c4d8e06ea52184e1622": {
+        "cac7868c2b3343f7ba48ddbf08c7375a": {
           "model_module": "@jupyter-widgets/base",
           "model_name": "LayoutModel",
           "state": {
@@ -384,7 +384,7 @@
             "left": null
           }
         },
-        "42177fc11feb48f8a251a2d3d315a955": {
+        "b96c114e9b1646d985aa47697d24b1af": {
           "model_module": "@jupyter-widgets/controls",
           "model_name": "SliderStyleModel",
           "state": {
@@ -399,7 +399,7 @@
             "_model_module": "@jupyter-widgets/controls"
           }
         },
-        "b1299c53f9d446a2b5f589e3a8ff7f7c": {
+        "d97fde8b59a84b3cb95265d1a62b2d94": {
           "model_module": "@jupyter-widgets/base",
           "model_name": "LayoutModel",
           "state": {
@@ -450,7 +450,7 @@
             "left": null
           }
         },
-        "d3aad7cdc7da4ff6b022d9e2085a2da7": {
+        "80be6c995651491e9b9b1fce5971dc05": {
           "model_module": "@jupyter-widgets/controls",
           "model_name": "SliderStyleModel",
           "state": {
@@ -465,7 +465,7 @@
             "_model_module": "@jupyter-widgets/controls"
           }
         },
-        "885491eb49f54f7a986fc2f88e5df3ca": {
+        "e371ec09b7d244f0a0a18cd9e29c2b58": {
           "model_module": "@jupyter-widgets/base",
           "model_name": "LayoutModel",
           "state": {
@@ -516,7 +516,7 @@
             "left": null
           }
         },
-        "e0caf81af4c6408bade51074916fd54a": {
+        "8ce4ba6c69b14504bb4373e57df66fb4": {
           "model_module": "@jupyter-widgets/controls",
           "model_name": "SliderStyleModel",
           "state": {
@@ -531,7 +531,7 @@
             "_model_module": "@jupyter-widgets/controls"
           }
         },
-        "dc88c6844f264df08518a7fd1036c440": {
+        "f5916ce935bc42d586d421a0986e5263": {
           "model_module": "@jupyter-widgets/base",
           "model_name": "LayoutModel",
           "state": {
@@ -582,7 +582,7 @@
             "left": null
           }
         },
-        "3b42e72877094c75b4820243f4d80f56": {
+        "483e366d1c32452cbe341d4dfea8bd62": {
           "model_module": "@jupyter-widgets/base",
           "model_name": "LayoutModel",
           "state": {
@@ -651,7 +651,7 @@
       "cell_type": "code",
       "metadata": {
         "id": "tawocdKBn6mA",
-        "outputId": "0a6818d7-adfa-4fee-f1c3-36af35895000",
+        "outputId": "8be54e7e-943c-4852-c6ea-1c9eb8f108e7",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -661,14 +661,14 @@
         "\n",
         "!sudo apt-get install coinor-cbc glpk-utils coinor-clp"
       ],
-      "execution_count": 2,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "stream",
           "text": [
             "Collecting pulp\n",
             "\u001b[?25l  Downloading https://files.pythonhosted.org/packages/89/0c/6d80f5f81a92d1733cc5ca180491b8a3cd5839e335627a0046c81b7d3d3d/PuLP-2.3.1-py3-none-any.whl (40.6MB)\n",
-            "\u001b[K     |████████████████████████████████| 40.6MB 93kB/s \n",
+            "\u001b[K     |████████████████████████████████| 40.6MB 95kB/s \n",
             "\u001b[?25hCollecting amply>=0.1.2\n",
             "  Downloading https://files.pythonhosted.org/packages/f3/c5/dfa09dd2595a2ab2ab4e6fa7bebef9565812722e1980d04b0edce5032066/amply-0.1.4-py3-none-any.whl\n",
             "Requirement already satisfied: docutils>=0.3 in /usr/local/lib/python3.6/dist-packages (from amply>=0.1.2->pulp) (0.16)\n",
@@ -702,7 +702,7 @@
             "Get:10 http://archive.ubuntu.com/ubuntu bionic/universe amd64 coinor-libcbc3 amd64 2.9.9+repack1-1 [687 kB]\n",
             "Get:11 http://archive.ubuntu.com/ubuntu bionic/universe amd64 coinor-cbc amd64 2.9.9+repack1-1 [11.2 kB]\n",
             "Get:12 http://archive.ubuntu.com/ubuntu bionic/universe amd64 coinor-clp amd64 1.16.11+repack1-1 [9,646 B]\n",
-            "Fetched 3,439 kB in 1s (3,004 kB/s)\n",
+            "Fetched 3,439 kB in 0s (22.8 MB/s)\n",
             "debconf: unable to initialize frontend: Dialog\n",
             "debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76, <> line 12.)\n",
             "debconf: falling back to frontend: Readline\n",
@@ -772,36 +772,36 @@
       "cell_type": "code",
       "metadata": {
         "id": "jYJz-NGMnaer",
-        "outputId": "61750c41-3e5a-409b-897e-4d18404eb866",
+        "outputId": "ca65f411-fcc2-4712-95a2-a659d3cbae94",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 330,
           "referenced_widgets": [
-            "0109c2cca61c4857a89453a4cdcc2f99",
-            "92f4518368694785a6dd003af5fa5d57",
-            "b6aafc178091442097e0de3ee3c4470a",
-            "d8fe157fb2ad4ee38f1a4fc3f6082858",
-            "3cc6276a850547b18aec0b722319b64f",
-            "7dd2ac24b8984ec782a06dadea733e08",
-            "acff8ee5efdd409fa4845432b1c1fd19",
-            "aae407bd26124378993ebda796d59015",
-            "e47b3e22a1cc4720929e82d0ada888c4",
-            "bb27c7f062ab402497c7795b079c1cf6",
-            "c70e99cd3ddb4a4181dc7b52607e7d1a",
-            "0f27a457ddef4c4d8e06ea52184e1622",
-            "42177fc11feb48f8a251a2d3d315a955",
-            "b1299c53f9d446a2b5f589e3a8ff7f7c",
-            "d3aad7cdc7da4ff6b022d9e2085a2da7",
-            "885491eb49f54f7a986fc2f88e5df3ca",
-            "e0caf81af4c6408bade51074916fd54a",
-            "dc88c6844f264df08518a7fd1036c440",
-            "3b42e72877094c75b4820243f4d80f56"
+            "29be406e6cfd4949a28fff6bd2432f1c",
+            "166719b29e67493d9f36e1f7f70c8b79",
+            "85d56b95a2184208aec7f0a926bf60ae",
+            "2dd7875b847340ee92b829f69ccc9e8e",
+            "a7fd1ef45386444fa39df12a3b02f4f1",
+            "7705f9e1776f40d9afe876fbfdf968f2",
+            "eeb06b01497f48ad984295e5a5631861",
+            "c9b1dfe68e374ce9a39b0b49f3dd8a2b",
+            "78ec68aec7a74edaa6daef4ff42396b8",
+            "d56356159e784dc889c057936b0b46c1",
+            "d8f2b2b0ef734a3cace4d44bea86bfa3",
+            "cac7868c2b3343f7ba48ddbf08c7375a",
+            "b96c114e9b1646d985aa47697d24b1af",
+            "d97fde8b59a84b3cb95265d1a62b2d94",
+            "80be6c995651491e9b9b1fce5971dc05",
+            "e371ec09b7d244f0a0a18cd9e29c2b58",
+            "8ce4ba6c69b14504bb4373e57df66fb4",
+            "f5916ce935bc42d586d421a0986e5263",
+            "483e366d1c32452cbe341d4dfea8bd62"
           ]
         }
       },
       "source": [
         "from __future__ import print_function\n",
-        "import pulp\n",
+        "from pulp import *\n",
         "from ipywidgets import interact, interactive, fixed, interact_manual, Layout, FloatSlider, IntSlider\n",
         "import ipywidgets as widgets\n",
         "import pandas as pd\n",
@@ -838,13 +838,13 @@
         "interact(produkcja_okien,cena_drew=cena_drew_s,cena_alu=cena_alu_s, czas_f1 = czas_f1s, czas_f2 = czas_f2s, czas_f3 = czas_f3s)\n",
         "\n"
       ],
-      "execution_count": 10,
+      "execution_count": 4,
       "outputs": [
         {
           "output_type": "display_data",
           "data": {
             "application/vnd.jupyter.widget-view+json": {
-              "model_id": "0109c2cca61c4857a89453a4cdcc2f99",
+              "model_id": "29be406e6cfd4949a28fff6bd2432f1c",
               "version_minor": 0,
               "version_major": 2
             },
@@ -866,7 +866,7 @@
           "metadata": {
             "tags": []
           },
-          "execution_count": 10
+          "execution_count": 4
         }
       ]
     }
